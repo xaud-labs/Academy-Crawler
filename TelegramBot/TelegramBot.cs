@@ -12,7 +12,7 @@ namespace TelegramBotService
         public TelegramBot(List<Course> courses)
         {
             _courses = courses;
-            _telegramBot = new TelegramBotClient("6706489647:AAGWINura6oFu9ZeI9nvhMIIWFq4uHVxUkg");
+            _telegramBot = new TelegramBotClient("YOUR TOKEN");
 
         }
         private TelegramBotClient _telegramBot;
